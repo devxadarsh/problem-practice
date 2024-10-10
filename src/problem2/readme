@@ -1,0 +1,9 @@
+Scenario: Employee Processing System
+Problem: You are given a list of employees, and your task is to:
+
+Filter out employees who earn more than $50,000.
+Group employees by department.
+Sort each department’s employees by salary in descending order.
+Collect the top 2 employees from each department.
+We will use functional programming techniques like
+:- lambdas, streams, and method references to solve this problem.

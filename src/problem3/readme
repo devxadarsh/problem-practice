@@ -1,0 +1,14 @@
+Scenario: Bank Account System with Concurrent Deposits and Withdrawals
+Problem: You are tasked with simulating a bank account system,
+         where multiple users (threads) perform deposits and withdrawals concurrently.
+
+Implement a system where:
+1. Multiple threads can perform deposits and withdrawals.
+2. Ensure that the account balance never becomes negative.
+3. Use synchronization mechanisms to avoid race conditions.
+
+Requirements:
+1. Implement a BankAccount class with methods deposit() and withdraw().
+2. Use multiple threads to simulate different users accessing the bank account.
+3. Ensure that the balance never goes negative,
+   even with multiple threads operating simultaneously.
