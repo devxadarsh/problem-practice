@@ -1,0 +1,30 @@
+Question:
+
+You are building a sales reporting system for an e-commerce platform.
+Each sale record has a customer name, the amount spent, and the product category.
+You need to implement a system to generate a report for each customer to determine,
+ if they qualify for a **discount** based on the total amount they have spent.
+
+A customer qualifies for a discount if:
+- They spent **more than $500** in total across all purchases.
+
+The e-commerce platform provides you with a list of sales as follows:
+
+List<Sale> sales = Arrays.asList(
+    new Sale("Alice", 150, "Electronics"),
+    new Sale("Bob", 200, "Clothing"),
+    new Sale("Alice", 400, "Home Appliances"),
+    new Sale("Charlie", 120, "Electronics"),
+    new Sale("Bob", 350, "Clothing")
+);
+
+Using lambda expressions and a functional interface, write a solution that:
+1. Calculates the total amount spent by each customer.
+2. Determines which customers qualify for the discount.
+3. Prints the customers who qualify for the discount.
+
+### Follow-up:
+- What functional interface would you use for this task?
+- Can you optimize your code to handle edge cases, such as when the list of sales is empty or there are no customers who qualify?
+
+This question allows the use of lambda expressions and functional interfaces like `Predicate`, `BiFunction`, or `Function` in Java to solve the problem.

@@ -1,0 +1,26 @@
+Question:
+You are working on a movie recommendation system.
+Each movie has a title, genre, and rating.
+The system recommends movies to users based on their preferences.
+
+You have the following list of movies:
+
+List<Movie> movies = Arrays.asList(
+    new Movie("Inception", "Sci-Fi", 8.8),
+    new Movie("Titanic", "Romance", 7.8),
+    new Movie("The Matrix", "Sci-Fi", 8.7),
+    new Movie("The Notebook", "Romance", 7.9),
+    new Movie("Interstellar", "Sci-Fi", 8.6)
+);
+
+Write a functional programming solution using Streams in Java to:
+
+Filter out movies that are of the "Sci-Fi" genre.
+Sort them in descending order of rating.
+Collect the top 2 highest-rated "Sci-Fi" movies and print their titles.
+
+Follow-up:
+What would happen if the list contained no "Sci-Fi" movies?
+How can you handle that gracefully in your solution?
+This type of question assesses understanding of functional programming,
+particularly filtering, sorting, and handling edge cases in a functional style using Streams in Java.
