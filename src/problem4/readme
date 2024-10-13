@@ -1,0 +1,13 @@
+Scenario:
+You are developing an e-commerce application. Customers can place orders for products, and each order contains a list of items.
+You need to implement a method that calculates a discount for customers based on the following rules:
+
+Order Amount: If the total price of the order is greater than $500, the customer gets a 10% discount.
+Frequent Customers: If the customer has placed more than 10 orders in the past, they get an additional 5% discount.
+Loyalty Program: If the customer is part of the loyalty program, they receive an extra 2% discount.
+You need to implement a solution that calculates the total discount for a customer in a functional style,
+using Java Streams, lambdas, and method references where possible.
+
+Requirements:
+Write a method calculateDiscount(Customer customer, List<Order> orders) that returns the discount percentage based on the rules above.
+Use Java functional programming constructs (e.g., Streams, Predicate, Function, reduce, etc.) to solve the problem.
